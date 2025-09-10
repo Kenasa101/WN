@@ -125,7 +125,7 @@ header {
 }
 
 .hero .btn {
-  background-color: white; /* buttons contrast */
+  background-color: #e0e0e0; /* buttons contrast */
   color: #007bff;
   font-weight: 600;
 }
