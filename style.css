@@ -110,7 +110,7 @@ header {
   padding: 5rem 1rem;
   text-align: center;
   background-color: #e0e0e0; /* solid shine blue */
-  color: white;
+  color: black;
   overflow: hidden;
 }
 
@@ -125,7 +125,7 @@ header {
 }
 
 .hero .btn {
-  background-color: #e0e0e0; /* buttons contrast */
+  background-color: white; /* buttons contrast */
   color: #007bff;
   font-weight: 600;
 }
