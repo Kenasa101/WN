@@ -133,6 +133,7 @@ footer {
   text-align: center;
 }
 
+
 /* Responsive */
 @media (max-width: 768px) {
   #nav-toggle {
@@ -140,13 +141,15 @@ footer {
   }
 
   .nav {
-    display: none;
+    display: flex;
     flex-direction: column;
-    gap: 0;
+    max-height: 0;       /* initially hidden */
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* smooth slide */
   }
 
   .nav.open {
-    display: flex;
+    max-height: 500px;   /* adjust based on menu length */
   }
 
   .nav ul {
@@ -166,3 +169,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
