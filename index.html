@@ -1,90 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Web Node_ETH · Home</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Node_ETH · Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="container header-inner">
-      <a href="index.html" class="brand">
-        <img src="images/logo.png" alt="Web Node_ETH logo" class="logo">
-        <span>Web Node_ETH</span>
-      </a>
-      <nav id="main-nav" class="nav">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <button id="nav-toggle" aria-label="Open menu">☰</button>
-    </div>
-  </header>
+<header>
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="images/logo.png" alt="Web Node_ETH logo" class="logo">
+      <span>Web Node_ETH</span>
+    </a>
+    <nav id="main-nav" class="nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="nav-toggle" aria-label="Open menu">☰</button>
+  </div>
+</header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Professional IT & Telecom Solutions</h1>
-      <p class="lead">Web Node_ETH delivers reliable software, telecom installation, and IT services tailored for small businesses and startups.</p>
-      <p>
-        <a href="services.html" class="btn">Our Services</a>
-        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
-      </p>
-    </div>
-  </section>
+<section class="hero">
+  <div class="container">
+    <h1>Professional IT & Telecom Solutions</h1>
+    <p class="lead">Web Node_ETH delivers reliable software, telecom installation, and IT services tailored for small businesses and startups.</p>
+    <p>
+      <a href="services.html" class="btn">Our Services</a>
+      <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+    </p>
+  </div>
+</section>
 
-  <!-- Overview Section -->
-  <section class="overview container">
-    <h2>What we do</h2>
-    <div class="grid-3">
-      <article class="card">
-        <h3>Software & Web</h3>
-        <p>Custom websites, e-business cards, QR video gifts, and event solutions with Amharic support.</p>
-      </article>
-      <article class="card">
-        <h3>Telecom & Installation</h3>
-        <p>OSP projects, BTS site installation, power expansion, and tower works with project management support.</p>
-      </article>
-      <article class="card">
-        <h3>Support & Hosting</h3>
-        <p>Local hosting, maintenance, system solutions, and technical support tailored to your operations.</p>
-      </article>
-    </div>
-  </section>
+<section class="overview container">
+  <h2>What we do</h2>
+  <div class="grid-3">
+    <article class="card">
+      <h3>Software & Web</h3>
+      <p>Custom websites, e-business cards, QR video gifts, and event solutions with Amharic support.</p>
+    </article>
+    <article class="card">
+      <h3>Telecom & Installation</h3>
+      <p>OSP projects, BTS site installation, power expansion, tower works, CCTV installation, and office LAN/network setup with project management support.</p>
+    </article>
+    <article class="card">
+      <h3>Support & Hosting</h3>
+      <p>Local hosting, maintenance, system solutions, and technical support tailored to your operations.</p>
+    </article>
+  </div>
+</section>
 
-  <!-- Highlight Section -->
-  <section class="container highlight">
-    <h2>Featured product — Bingo WN</h2>
-    <p>An advanced digital bingo system for events and game houses. Includes admin dashboard, Amharic UI, and mobile-friendly play cards.</p>
-    <p><a href="products.html#bingo" class="btn">Learn more</a></p>
-  </section>
+<section class="container highlight">
+  <h2>Featured product — Bingo WN</h2>
+  <p>An advanced digital bingo system for events and game houses. Includes admin dashboard, Amharic UI, and mobile-friendly play cards.</p>
+  <p><a href="products.html#bingo" class="btn">Learn more</a></p>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container footer-inner">
-      <p>© 2025 Web Node_ETH · Bole Michael, Addis Ababa</p>
-      <p>Phone: 0955 49 8955 · Email: <a href="mailto:webnode@gmail.com">webnode@gmail.com</a></p>
-    </div>
-  </footer>
+<footer>
+  <div class="container footer-inner">
+    <p>© 2025 Web Node_ETH · Bole Michael, Addis Ababa</p>
+    <p>Phone: 0955 49 8955 · Email: <a href="mailto:webnode@gmail.com">webnode@gmail.com</a></p>
+  </div>
+</footer>
 
-  <!-- JS for mobile menu -->
-  <script>
-    const navToggle = document.getElementById('nav-toggle');
-    const mainNav = document.getElementById('main-nav');
-
-    navToggle.addEventListener('click', () => {
-      mainNav.classList.toggle('open');
-      navToggle.classList.toggle('open'); // button rotation
-    });
-  </script>
+<script>
+const navToggle = document.getElementById('nav-toggle');
+const mainNav = document.getElementById('main-nav');
+navToggle.addEventListener('click', () => {
+  mainNav.classList.toggle('open');
+  navToggle.classList.toggle('open');
+});
+mainNav.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    mainNav.classList.remove('open');
+    navToggle.classList.remove('open');
+  });
+});
+</script>
 
 </body>
 </html>
