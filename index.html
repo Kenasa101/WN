@@ -15,6 +15,7 @@
         <img src="images/logo.png" alt="Web Node_ETH logo" class="logo">
         <span>Web Node_ETH</span>
       </a>
+      <button id="nav-toggle" aria-label="Open menu">☰</button>
       <nav id="main-nav" class="nav">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
@@ -25,7 +26,6 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <button id="nav-toggle" aria-label="Open menu">☰</button>
     </div>
   </header>
 
@@ -82,7 +82,7 @@
 
     navToggle.addEventListener('click', () => {
       mainNav.classList.toggle('open');
-      navToggle.classList.toggle('open'); // button rotation
+      navToggle.classList.toggle('open'); // optional rotation effect
     });
   </script>
 
